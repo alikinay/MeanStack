@@ -1,0 +1,21 @@
+<h2>User Profiles</h2>
+
+<div>
+  <label>Profile name:
+    <input #profileName />
+  </label>
+  <!-- (click) passes input value to add() and then clears the input -->
+  <button (click)="add(profileName.value); profileName.value=''">
+    add
+  </button>
+</div>
+
+<ul class="profiles">
+  <li *ngFor="let profile of profiles">
+    <a routerLink="/detail/{{profile.id}}">
+      <span class="badge">{{profile.id}}</span> {{profile.name}}
+    </a>
+    <button class="delete" title="delete hero"
+            (click)="delete(profile)">x</button>
+  </li>
+</ul>

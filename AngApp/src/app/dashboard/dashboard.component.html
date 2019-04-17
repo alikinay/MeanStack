@@ -1,0 +1,12 @@
+<h3>Top Profiles</h3>
+
+<div class="grid grid-pad">
+  <a *ngFor="let profile of profiles" class="col-1-4"
+     routerLink="/detail/{{profile.id}}">
+    <div class="module profile">
+      <h4>{{profile.name}}</h4>
+    </div>
+  </a>
+</div>
+
+<app-profile-search></app-profile-search>
