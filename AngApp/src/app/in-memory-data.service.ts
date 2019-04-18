@@ -15,9 +15,9 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 15, name: 'Semahat' },
       { id: 16, name: 'Omer' },
       { id: 17, name: 'Maya' },
-      { id: 18, name: 'Dr IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
+      { id: 18, name: 'Zeynep' },
+      { id: 19, name: 'Rail' },
+      { id: 20, name: 'Mithat' }
     ];
     return {profiles};
 

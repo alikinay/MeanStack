@@ -20,18 +20,9 @@ export class ProfileService {
     private messageService: MessageService,
     private http: HttpClient) { }
 
-  // getProfiles(): Observable<Profile[]> {
-  //   this.messageService.add('Testing Messages');
-  //   return this.http.get<Profile[]>(this.profilesUrl)
-  //     .pipe(
-  //       tap(_ => this.log('fetched profiles')),
-  //       catchError(this.handleError<Profile[]>('getProfiles', []))
-  //     );
-  // }
-
   getProfiles(): Observable<Profile[]> {
     this.messageService.add('Testing Messages');
-    return this.http.get<Profile[]>(this.backendUrl)
+    return this.http.get<Profile[]>(this.profilesUrl)
       .pipe(
         tap(_ => this.log('fetched profiles')),
         catchError(this.handleError<Profile[]>('getProfiles', []))

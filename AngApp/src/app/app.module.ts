@@ -13,6 +13,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
 import { InMemoryDataService } from './in-memory-data.service';
 import { ProfileSearchComponent } from './profile-search/profile-search.component';
+import { CurrencyExchangeComponent } from './currency-exchange/currency-exchange.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProfileSearchComponent } from './profile-search/profile-search.componen
     ProfileDetailComponent,
     MessagesComponent,
     DashboardComponent,
-    ProfileSearchComponent
+    ProfileSearchComponent,
+    CurrencyExchangeComponent
   ],
   imports: [
     BrowserModule,
