@@ -6,9 +6,7 @@ const logger = require('morgan');
 
 const hw3Router = require('./routes/hw3');
 const authRoutes = require('./routes/oauth');
-
-const dataRoutes = require('./routes/data');
-
+const usersRouter = require('./routes/users');
 
 let db = require('./mongo/mongo');
 db.connect((err,client) => {
@@ -81,7 +79,7 @@ app.use(passport.session());
 
 app.use('/', authRoutes);
 app.use('/hw3', hw3Router);
-app.use('/data', dataRoutes);
+app.use('/users', usersRouter);
 
 
 // catch 404 and forward to error handler

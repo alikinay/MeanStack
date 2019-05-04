@@ -35,6 +35,6 @@ router.get('/callback',
 router.get('/logout', function(req,res,next){
     req.logout();
     //res.render('test',{user:req.user})
-})
+});
 
 module.exports = router;

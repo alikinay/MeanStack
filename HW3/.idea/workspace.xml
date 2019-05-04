@@ -3,18 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="defc9e10-124b-4c4c-b3b5-dba1f23e29f4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../AngApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/currency-exchange/currency-exchange.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/currency-exchange/currency-exchange.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/currency-exchange/currency-exchange.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/currency-exchange/currency-exchange.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/dashboard/dashboard.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/dashboard/dashboard.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../AngApp/src/app/dashboard/dashboard.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/dashboard/dashboard.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/dashboard/dashboard.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/dashboard/dashboard.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/exchange.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/exchange.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/profiles/profiles.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/profiles/profiles.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/messages/messages.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/messages/messages.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/profile-search/profile-search.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/profile-search/profile-search.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/profile.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/profile.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AngApp/src/app/profiles/profiles.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/../AngApp/src/app/profiles/profiles.component.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/data.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/hw3.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/hw3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/oauth.js" afterDir="false" />
     </list>
@@ -31,7 +29,7 @@
     <session id="-899483265">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="16" />
+          <entry key="project.closed" value="17" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
@@ -53,7 +51,7 @@
           <entry key="env" value="1" />
           <entry key="es6" value="1" />
           <entry key="gitignore" value="2" />
-          <entry key="js" value="36" />
+          <entry key="js" value="44" />
           <entry key="json" value="2" />
           <entry key="md" value="1" />
           <entry key="pug" value="11" />
@@ -66,7 +64,7 @@
           <entry key="CSS" value="1" />
           <entry key="JSON" value="2" />
           <entry key="Jade" value="11" />
-          <entry key="JavaScript" value="37" />
+          <entry key="JavaScript" value="45" />
           <entry key="PLAIN_TEXT" value="4" />
           <entry key="Scratch" value="1" />
         </counts>
@@ -77,7 +75,7 @@
           <entry key="env" value="12" />
           <entry key="es6" value="1328" />
           <entry key="gitignore" value="30" />
-          <entry key="js" value="2209" />
+          <entry key="js" value="2758" />
           <entry key="pug" value="242" />
         </counts>
       </usages-collector>
@@ -86,7 +84,7 @@
           <entry key=".env file" value="12" />
           <entry key="CSS" value="14" />
           <entry key="Jade" value="242" />
-          <entry key="JavaScript" value="2209" />
+          <entry key="JavaScript" value="2758" />
           <entry key="PLAIN_TEXT" value="30" />
           <entry key="Scratch" value="1328" />
         </counts>
@@ -101,35 +99,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+            <state relative-caret-position="816">
+              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/routes/hw3.js">
+        <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-41">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/oauth.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/test.pug">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="180">
+              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -157,11 +137,13 @@
         <option value="$PROJECT_DIR$/config/keys.js" />
         <option value="$PROJECT_DIR$/config/google.js" />
         <option value="$PROJECT_DIR$/mongo/mongo.js" />
-        <option value="$PROJECT_DIR$/routes/hw3.js" />
-        <option value="$PROJECT_DIR$/routes/data.js" />
         <option value="$PROJECT_DIR$/views/test.pug" />
-        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/data.js" />
         <option value="$PROJECT_DIR$/routes/oauth.js" />
+        <option value="$PROJECT_DIR$/routes/post.js" />
+        <option value="$PROJECT_DIR$/routes/hw3.js" />
+        <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
       </list>
     </option>
   </component>
@@ -181,10 +163,10 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="721" />
+    <option name="height" value="677" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -207,23 +189,7 @@
             <path>
               <item name="HW3" type="b2602c69:ProjectViewProjectNode" />
               <item name="HW3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW3" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="express" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW3" type="462c0819:PsiDirectoryNode" />
               <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HW3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HW3" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -242,6 +208,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -301,24 +268,24 @@
       <workItem from="1556652155451" duration="1978000" />
       <workItem from="1556677528192" duration="7004000" />
       <workItem from="1556729419716" duration="7686000" />
-      <workItem from="1556901149710" duration="12472000" />
+      <workItem from="1556901149710" duration="18117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52283000" />
+    <option name="totallyTimeSpent" value="57928000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="721" extended-state="0" />
+    <frame x="0" y="23" width="1366" height="677" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.21763304" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.19479553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.50117093" side_tool="true" weight="0.21763304" />
       <window_info id="Favorites" order="3" sideWeight="0.50117093" side_tool="true" weight="0.21763304" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3296355" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30842608" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3290938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2769231" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.5643879" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -326,7 +293,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50119144" side_tool="true" weight="0.46263912" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4988086" weight="0.27503973" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4988086" weight="0.27344993" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -339,15 +306,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/routes/oauth.js</url>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="NodeJSConfigurationType">
         <watch expression="user.value.googleId" />
@@ -440,20 +398,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/data.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/test.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/express/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -467,24 +411,48 @@
     <entry file="file://$PROJECT_DIR$/node_modules/express/Readme.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/oauth.js">
+    <entry file="file://$PROJECT_DIR$/views/test.pug">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
+    <entry file="file://$PROJECT_DIR$/routes/data.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/oauth.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="10" lean-forward="true" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="10" />
+        <state relative-caret-position="338">
+          <caret line="37" column="3" lean-forward="true" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/post.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/hw3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        <state relative-caret-position="-55">
+          <caret line="18" column="13" lean-forward="true" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
         </state>
       </provider>
     </entry>

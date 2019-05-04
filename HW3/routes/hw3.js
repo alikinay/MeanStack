@@ -35,7 +35,8 @@ router.get('/', function(req, res, next) {
         console.log(body);
 
         // res.render('hw3', {title: 'HW3 External Data Test', money: body.amount});
-        res.send({"money": 5.96792});
+        res.send({ money: body.amount});
+        //res.send({"money": 5.96792});
     });
 
 
