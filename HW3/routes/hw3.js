@@ -7,6 +7,11 @@ const keys = require('../config/keys');
 /* GET home page. */
 router.get('/', function(req, res, next) {
 
+    res.setHeader('Access-Control-Allow-Origin', '*');
+    res.header("Cache-Control", "no-cache, no-store, must-revalidate");
+    res.header("Pragma", "no-cache");
+    res.header("Expires", 0);
+
     const options = {
         method: 'GET',
         url: 'https://www.amdoren.com/api/currency.php',
@@ -29,7 +34,8 @@ router.get('/', function(req, res, next) {
 
         console.log(body);
 
-        res.render('hw3', {title: 'HW3 External Data Test', money: body.amount});
+        // res.render('hw3', {title: 'HW3 External Data Test', money: body.amount});
+        res.send({"money": 5.96792});
     });
 
 
