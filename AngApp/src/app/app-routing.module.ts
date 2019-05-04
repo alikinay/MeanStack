@@ -5,26 +5,13 @@ import {DashboardComponent} from './dashboard/dashboard.component';
 import {ProfileDetailComponent} from './profile-detail/profile-detail.component';
 import {CurrencyExchangeComponent} from './currency-exchange/currency-exchange.component';
 
-
-// const routes: Routes = [
-//   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-//   { path: 'dashboard', component: DashboardComponent },
-//   { path: 'profiles', component: ProfilesComponent },
-//   { path: 'detail/:id', component: ProfileDetailComponent },
-//   { path: 'exchanges', component: CurrencyExchangeComponent}
-//
-// ];
-
-// ADDED TO TEST LOGIN
 const routes: Routes = [
   { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
   { path: 'dashboard/:username', component: DashboardComponent },
   { path: 'dashboard', component: DashboardComponent },
-
-  // { path: 'profiles', component: ProfilesComponent },
-  // { path: 'detail/:id', component: ProfileDetailComponent },
+  { path: 'profiles', component: ProfilesComponent },
+  { path: 'detail/:id', component: ProfileDetailComponent },
   { path: 'exchanges', component: CurrencyExchangeComponent}
-
 ];
 
 
