@@ -9,10 +9,22 @@ import {ExchangeService} from '../exchange.service';
   styleUrls: ['./currency-exchange.component.css']
 })
 export class CurrencyExchangeComponent implements OnInit {
+  money;
 
   constructor(private exchangeService: ExchangeService) { }
 
   ngOnInit() {
+     this.getExchanges();
+  }
+  getExchanges(): void {
+    this.exchangeService.getExchanges()
+      .subscribe(exchanges => {
+          // console.log("wadap");
+
+          console.log(exchanges);
+          this.money = exchanges.money;
+      }
+      )
   }
 
 

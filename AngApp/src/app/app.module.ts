@@ -11,9 +11,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { HttpClientModule} from '@angular/common/http';
 import { HttpClientInMemoryWebApiModule } from 'angular-in-memory-web-api';
-import { InMemoryDataService } from './in-memory-data.service';
+// import { InMemoryDataService } from './in-memory-data.service';
 import { ProfileSearchComponent } from './profile-search/profile-search.component';
 import { CurrencyExchangeComponent } from './currency-exchange/currency-exchange.component';
+
 
 @NgModule({
   declarations: [
@@ -31,9 +32,9 @@ import { CurrencyExchangeComponent } from './currency-exchange/currency-exchange
     FormsModule,
     HttpClientModule,
 
-    HttpClientInMemoryWebApiModule.forRoot(
-      InMemoryDataService, { dataEncapsulation: false }
-    )
+    // HttpClientInMemoryWebApiModule.forRoot(
+    //   InMemoryDataService, { dataEncapsulation: false }
+    // )
 
   ],
   providers: [],
